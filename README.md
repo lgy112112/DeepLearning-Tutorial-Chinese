@@ -58,7 +58,7 @@
 ---
 **保持学习，保持热情！** 💪
 
-🎉 **DeepLearning-Tutorial-Chinese 团队** 🎉
+🎉 **DeepLearning-Tutorial-Chinese 团队（only me）** 🎉
 
 [![GitHub stars](https://img.shields.io/github/stars/lgy112112/DeepLearning-Tutorial-Chinese?style=social)](https://github.com/lgy112112/DeepLearning-Tutorial-Chinese)
 [![GitHub forks](https://img.shields.io/github/forks/lgy112112/DeepLearning-Tutorial-Chinese?style=social)](https://github.com/lgy112112/DeepLearning-Tutorial-Chinese)
