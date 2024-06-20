@@ -2,6 +2,25 @@
 
 欢迎来到 **DeepLearning-Tutorial-Chinese** 仓库！这里有一系列精彩的深度学习教程和示例代码，旨在帮助大家更好地理解和应用深度学习技术。无论你是初学者还是进阶者，都能在这里找到有用的资源。 🌟
 
+## 📈 2024/06/21 本次更新：日本足球俱乐部比赛日观众人数预测 📊
+
+我们非常兴奋地向大家介绍本次仓库的最新更新：**根据场地信息、天气信息、电视台转播等信息预测日本足球俱乐部比赛日的观众人数**。在这个更新中，我们通过详细的探索性数据分析（EDA）和预处理过程，最终选择了KAN（Kolmogorov-Arnold Network）作为最优模型，并对比了三种损失函数的效果。这些代码涵盖了数据预处理、EDA、模型训练和评估等多个环节，帮助你全面掌握回归任务的实现过程。🤖
+
+### 更新内容 🌟
+
+1. **数据预处理和EDA** 🧹🔍
+   - 使用 `pandas` 进行数据加载和清洗。
+   - 对数据进行详细的探索性数据分析（EDA），包括数据分布、缺失值处理、特征工程等。
+   - 详见 [new_preprocess.ipynb](https://github.com/lgy112112/DeepLearning-Tutorial-Chinese/blob/main/attendance_regression_detailedEDA_train/new_preprocess.ipynb)。
+
+2. **模型选择与训练** 🏗️🚀
+   - 选择了 KAN（Kolmogorov-Arnold Network）作为最优模型，展示了模型的结构和训练过程。
+   - 提供了三种损失函数（MSELoss, RMSELoss, HuberLoss）的对比分析，并选择了最优损失函数进行训练。
+   - 详见 [new_train.ipynb](https://github.com/lgy112112/DeepLearning-Tutorial-Chinese/blob/main/attendance_regression_detailedEDA_train/new_train.ipynb)。
+   - ![image](https://github.com/lgy112112/DeepLearning-Tutorial-Chinese/assets/144128974/78231046-ab71-4f3b-a0cc-14f8d6bf8cf4)
+
+
+
 ## 📈 2024/06/18 本次更新：蒸汽量回归预测 📊
 
 我非常兴奋地向大家介绍本次仓库的最新更新：**蒸汽量回归预测**。在这个更新中，我通过构建和训练一个简单而强大的神经网络模型，来预测蒸汽的输出量。这些代码涵盖了数据预处理、模型构建、训练、评估等多个环节，帮助你全面掌握回归任务的实现过程。🤖
