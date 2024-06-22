@@ -4,12 +4,15 @@
 ## 📈 2024/06/22 本次更新：日本足球俱乐部比赛日观众人数预测——新模型CatBoost对比KAN 📊
 ### 更新内容 🌟
 1. CatBoost🐱
-   - 使用例
+   - 使用例——详见 [new_train_with_Cat_optuna.ipynb](https://github.com/lgy112112/DeepLearning-Tutorial-Chinese/blob/main/attendance_regression_detailedEDA_train/new_train_with_Cat_optuna.ipynb)
    - 预测结果可视化教程（`CatBoost` API）
 2. Optuna😁🎶
    - `Optuna`最优参数搜索
    - 如何针对验证集中的指标进行优化
    - 详细注释
+3. 效果拔群🍿
+   ![1719064194603](image/README/1719064194603.png)
+   ![1719064239514](image/README/1719064239514.png)
 
 ## 📈 2024/06/21 本次更新：日本足球俱乐部比赛日观众人数预测 📊
 
@@ -25,7 +28,7 @@
 2. **模型选择与训练** 🏗️🚀
    - 选择了 KAN（Kolmogorov-Arnold Network）作为最优模型，展示了模型的结构和训练过程。
    - 提供了三种损失函数（MSELoss, RMSELoss, HuberLoss）的对比分析，并选择了最优损失函数进行训练。
-   - 详见 [new_train.ipynb](https://github.com/lgy112112/DeepLearning-Tutorial-Chinese/blob/main/attendance_regression_detailedEDA_train/new_train.ipynb)。
+   - 详见 [new_train.ipynb](https://github.com/lgy112112/DeepLearning-Tutorial-Chinese/blob/main/attendance_regression_detailedEDA_train/new_train_with_KAN.ipynb)。
    - ![image](https://github.com/lgy112112/DeepLearning-Tutorial-Chinese/assets/144128974/78231046-ab71-4f3b-a0cc-14f8d6bf8cf4)
 
 
